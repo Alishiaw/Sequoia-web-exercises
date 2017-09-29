@@ -1,31 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    <meta charset="UTF-8">
-    <title>Register With Us</title>
+     <meta charset="UTF-8">
     </head>
     <body>
-    <form action="https://requestb.in/17bsgnb1"></form>
-    <label for="email">Email</label>
-    <input type="text" name="email" placeholder="Input Email">
-    <br>
-    <br>
-    <label for="passsword">Password</label>
-    <input type= "password" name="password" placeholder="Input Password">
-    <br>
-    <br>
-    <label for="Bio">Bio</label>
-    <input type="textarea" name="Bio" placeholder="About You">
-    <br>
-    <br>
+        <main>
+        <h1>Register With Us</h1>
 
-    <select name="How did you hear about us?">
-        <option value="Billboard">Billboard</option>
-        <option value="Radio Advertisement">Radio Advertisement</option>
-        <option value="Internet Advertisement">Internet Advertisement</option>
-        <option value="Other">Other</option>
-    </select>
+        <form method="Post" action="https://requestb.in/17bsgnb1"></form>
+        <div>
+            <label for="email">Email</label>
+            <input id="email" type="text" name="email" placeholder="Input Email">
+        </div>
 
+        <div>
+            <label for="password">Password</label>
+            <input type= "password" name="password" id="password" placeholder="Input Password">
+        </div>
+        <div>
+            <label for="Bio">Bio</label>
+            <textarea name="Bio" id="Bio" cols="30" rows="10"></textarea>
+        </div>
+
+                <p>How did you hear about us?</p>
+        </main>
+        <form>
+            <input type="radio" name="how did you hear about us" value="Billboard" >Billboard
+            <input type="radio" name="how did you hear about us" value="Internet Advertisement">Internet Advertisement
+            <input type="radio" name="how did you hear about us" value="Radio Advertisement"> Radio Advertisement
+            <input type="radio" name="how did you hear about us" value="other">Other
+        </form>
+                <div>
+                    <label for="browser">What browser are you using?</label>
+                    <select name="browser" id="browser">
+                        <option value="Chrome">Chrome</option>
+                        <option value="Firefox">Firefox</option>
+                        <option value="explorer">explorer</option>
+                    </select>
+                </div>
     </label>
     </body>
 </html>
