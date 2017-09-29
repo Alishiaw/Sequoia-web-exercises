@@ -1,0 +1,38 @@
+
+.fancy-header {
+    color:orangered;
+}
+
+h1 {
+    text-align: center; text-decoration: underline;
+}
+
+body {
+
+    color: deeppink;
+    font-family: Georgia;
+    background-color: black;
+    background-image: url('../img/darkness.png');
+    background-size: 800px 600px;
+}
+    ol,li{
+        list-style-type: hebrew;
+    }
+
+hr {
+    border: 2px solid lime;
+
+}
+table {
+    color: deepskyblue;
+    border-color: black;
+    border-collapse: separate;
+
+}
+
+    h3,th {
+        color:red; text-decoration-line: underline;
+    }
+    li,td,p {
+        color: deeppink;
+    }
