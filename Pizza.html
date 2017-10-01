@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza Pizza</title>
+</head>
+
+    <body>
+        <h1>Welcome to Pizza Pizza</h1>
+
+        <h3>Contact Information</h3>
+
+        <p><label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder=" Enter Here"></p>
+
+        <p><label for="phone">Phone Number</label>
+        <input type="text" id="phone" name="phone" placeholder=" Enter Here"></p>
+
+        <p><label for="address">Address</label>
+        <input type="text" id="address" name="address" placeholder="Enter Here"></p>
+
+        <p><label for="state">Enter State</label>
+            <input type="text" id="state" name="state" placeholder="Enter Here"></p>
+
+        <p><label for="email">Email Address</label>
+        <input type="text" id="email" name="email" placeholder="Enter Here"></p>
+
+        <hr>
+
+        <h3>Payment Information</h3>
+
+        <label for="card">Select Card Type</label>
+        <select name="card" id="card">
+            <option value="Visa">Visa</option>
+            <option value="Master">Master</option>
+            <option value="Discover">Discover</option>
+            <option value="American">American Express</option>
+        </select>
+
+
+        <p><label for="cardn">Card Number</label>
+            <input type="text" id="cardn" name="cardn" placeholder="Card Number"></p>
+
+        <p><label for="cvs">Card Security</label>
+            <input type="text" id="cvs" name="cvs" placeholder="Security Number"></p>
+
+        <p><label for="expiration">Expiration</label>
+            <input type="text" id="expiration" name="expiration" placeholder="Expiration"> </p>
+
+        <p><label for="zip">Zip Code</label>
+            <input type="text" id="zip" name="zip" placeholder="Enter zip code"> </p>
+
+        <hr>
+
+        <h3>Pizza Builder</h3>
+
+        <h4>Size</h4>
+        <form>
+
+            <label><input type="radio" name="size" id="small" value="Small">(10")Small</label><br>
+            <label><input type="radio" name="size" id="Medium" value="Medium">(12")Medium</label><br>
+            <label><input type="radio" name="size" id="large" value="large" checked>(14")Large</label><br>
+            <label><input type="radio" name="size" id="Extra Large" value="Extra Large">(16")Extra Large</label><br>
+
+
+
+        </form>
+        <h4>Type of Crust</h4>
+        <form>
+
+            <label><input type="radio" name="crust" id="tossed" value="tossed" checked>Hand Tossed</label><br>
+            <label><input type="radio" name="crust" id="pan" value="pan">Handmade Pan</label><br>
+            <label><input type="radio" name="crust" id="thin" value="thin">Thin 'N Crispy</label><br>
+            <label><input type="radio" name="crust" id="brooklyn" value="brooklyn">Brooklyn Style</label><br>
+            <label><input type="radio" name="crust" id="gluten" value="gluten">Gluten Free Crust</label>
+
+
+
+        </form>
+
+        <h4>Type of Sauce</h4>
+
+        <form>
+
+            <label><input type="radio" name="tos" id="Robust" value="Robust" checked>Robust Inspired Tomato Sauce</label><br>
+            <label><input type="radio" name="tos" id="marinara" value="marinara">Hearty Marinara Sauce</label><br>
+            <label><input type="radio" name="tos" id="BBQ" value="BBQ">BBQ Sauce</label><br>
+            <label><input type="radio" name="tos" id="Garlic" value="Garlic">Garlic Parmesan Sauce</label><br>
+            <label><input type="radio" name="tos" id="Alfredo" value="Alfredo">Alfredo Sauce</label>
+
+
+        </form>
+
+        <h4>Amount of Cheese</h4>
+
+        <form>
+            <label><input type="radio" name="toc" id="cheese" value="cheese" checked>Cheese</label>
+            <label for="mc"></label>
+
+            <select name="mc" id="mc">
+                <option value="Light">Light</option>
+                <option value="Normal" selected>Normal</option>
+                <option value="Extra">Extra</option>
+                <option value="Double">Double</option>
+                <option value="None">None</option>
+            </select>
+
+            <br>
+
+
+            <h4>Crust Flavor</h4>
+                <label><input type="radio" name="cfla" id="none" value="NoCrust" checked>No Crust Flavor</label><br>
+                <label><input type="radio" name="cfla" id="gar" value="garlic">Garlic Buttery Blend</label><br>
+                <label><input type="radio" name="cfla" id="hut" value="Special">Special Seasoning</label><br>
+                <label><input type="radio" name="cfla" id="parm" value="toastedparm">Toasted Parmesan</label><br>
+                <label><input type="radio" name="cfla" id="pret" value="Saltedprez">Salted Pretzel</label><br>
+                <label><input type="radio" name="cfla" id="ched" value="toastedchedd">Toasted Cheddar</label>
+            <h4>Type of Toppings</h4>
+            <h5>Meats</h5>
+
+
+                <label><input type="checkbox" name="tot" id="pep" value="Pepperoni">Pepperoni</label>
+                <label><input type="checkbox" name="tot" id="itsa" value="Italian Sausage">Italian Sausage</label>
+                <label><input type="checkbox" name="tot" id="sal" value="Salami">Salami</label><br>
+                <label><input type="checkbox" name="tot" id="meatb" value="Meatball">Meatball</label>
+                <label><input type="checkbox" name="tot" id="ham" value="Ham">Ham</label>
+                <label><input type="checkbox" name="tot" id="bacon" value="Bacon">Bacon</label><br>
+                <label><input type="checkbox" name="tot" id="grill" value="Grilled">Grilled</label>
+                <label><input type="checkbox" name="tot" id="beef" value="Beef">Beef</label>
+                <label><input type="checkbox" name="tot" id="pork" value="Pork">Pork</label>
+
+            <h5>Vegetables</h5>
+
+            <label><input type="checkbox" name="tov" id="mush" value="Mushrooms">Mushrooms</label>
+            <label><input type="checkbox" name="tov" id="roas" value="Roasted">Roasted Spinach</label>
+            <label><input type="checkbox" name="tov" id="peru" value="Peruvian">Peruvian Cherry Peppers</label><br>
+            <label><input type="checkbox" name="tov" id="redo" value="Red Onions">Red Onions</label><br>
+            <label><input type="checkbox" name="tov" id="medi" value="olives">Black Olives</label>
+            <label><input type="checkbox" name="tov" id="gree" value="Green olives">Green Olives</label><br>
+            <label><input type="checkbox" name="tov" id="greb" value="Bell peppers">Green Bell Peppers</label>
+            <label><input type="checkbox" name="tov" id="banp" value="Banana">Banana Peppers</label>
+            <label><input type="checkbox" name="tov" id="jala" value="Pineapple">Pineapple</label>
+            <label><input type="checkbox" name="tov" id="roma" value="Jalapeno Peppers">Jalapeno Peppers</label><br>
+            <br>
+            <input type="submit" value="Complete Order">
+        </form>
+    </body>
+</html>
