@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Pizza Pizza</title>
+    <link rel="stylesheet" href="css/Pizza.css">
 </head>
 
     <body>
@@ -10,26 +11,26 @@
 
         <h3>Contact Information</h3>
 
-        <p><label for="name">Full Name</label>
+        <p><label for="name">Full Name:</label>
         <input type="text" id="name" name="name" placeholder=" Enter Here"></p>
 
-        <p><label for="phone">Phone Number</label>
+        <p><label for="phone">Phone Number:</label>
         <input type="text" id="phone" name="phone" placeholder=" Enter Here"></p>
 
-        <p><label for="address">Address</label>
+        <p><label for="address">Address:</label>
         <input type="text" id="address" name="address" placeholder="Enter Here"></p>
 
-        <p><label for="state">Enter State</label>
+        <p><label for="state">Enter State:</label>
             <input type="text" id="state" name="state" placeholder="Enter Here"></p>
 
-        <p><label for="email">Email Address</label>
+        <p><label for="email">Email Address:</label>
         <input type="text" id="email" name="email" placeholder="Enter Here"></p>
 
         <hr>
 
         <h3>Payment Information</h3>
 
-        <label for="card">Select Card Type</label>
+        <label for="card">Card Type:</label>
         <select name="card" id="card">
             <option value="Visa">Visa</option>
             <option value="Master">Master</option>
@@ -38,17 +39,17 @@
         </select>
 
 
-        <p><label for="cardn">Card Number</label>
+        <p><label for="cardn">Card Number:</label>
             <input type="text" id="cardn" name="cardn" placeholder="Card Number"></p>
 
-        <p><label for="cvs">Card Security</label>
+        <p><label for="cvs">Card Security:</label>
             <input type="text" id="cvs" name="cvs" placeholder="Security Number"></p>
 
-        <p><label for="expiration">Expiration</label>
-            <input type="text" id="expiration" name="expiration" placeholder="Expiration"> </p>
+        <p><label for="expiration">Expiration:</label>
+            <input type="text" id="expiration" name="expiration" placeholder="Expiration"></p>
 
-        <p><label for="zip">Zip Code</label>
-            <input type="text" id="zip" name="zip" placeholder="Enter zip code"> </p>
+        <p><label for="zip">Zip Code:</label>
+            <input type="text" id="zip" name="zip" placeholder="Enter zip code"></p>
 
         <hr>
 
@@ -115,6 +116,7 @@
                 <label><input type="radio" name="cfla" id="parm" value="toastedparm">Toasted Parmesan</label><br>
                 <label><input type="radio" name="cfla" id="pret" value="Saltedprez">Salted Pretzel</label><br>
                 <label><input type="radio" name="cfla" id="ched" value="toastedchedd">Toasted Cheddar</label>
+            <hr>
             <h4>Type of Toppings</h4>
             <h5>Meats</h5>
 
@@ -142,7 +144,9 @@
             <label><input type="checkbox" name="tov" id="jala" value="Pineapple">Pineapple</label>
             <label><input type="checkbox" name="tov" id="roma" value="Jalapeno Peppers">Jalapeno Peppers</label><br>
             <br>
-            <input type="submit" value="Complete Order">
+
+            <button class="button" type="button">Complete Order</button>
+
         </form>
     </body>
 </html>
