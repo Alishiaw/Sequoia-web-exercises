@@ -1,6 +1,6 @@
 
 .fancy-header {
-    color:orangered;
+    color:orangered; text-decoration: underline;
 }
 
 h1 {
@@ -10,29 +10,27 @@ h1 {
 body {
 
     color: deeppink;
-    font-family: Georgia;
+    font-family:Georgia, Helvetica, Arial;
     background-color: black;
     background-image: url('../img/darkness.png');
     background-size: 800px 600px;
 }
     ol,li{
-        list-style-type: hebrew;
-    }
+        list-style-type: georgian;
+}
 
 hr {
     border: 2px solid lime;
+}
+table,th,td{
+
+    border: 2px solid lime;
 
 }
-table {
-    color: deepskyblue;
-    border-color: black;
-    border-collapse: separate;
-
-}
-
     h3,th {
         color:red; text-decoration-line: underline;
     }
     li,td,p {
         color: deeppink;
     }
+
