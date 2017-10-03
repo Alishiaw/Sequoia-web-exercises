@@ -1,34 +1,66 @@
 .box{
-    border: 1px solid black;
-    width:150px;
+    width: 50px;
     height:50px;
-    padding:10px;
-    background-color: aqua;
-    margin-bottom: 10px;
-    color: white;
+    padding:22px;
+    background-color: black;
+    margin: 50px;
     font-weight: bold;
+    border-color: 1px;
 }
 .red{
+    border: 1px;
+    height: 50px;
+    width: 50px;
+    padding: 22px;
+    margin: 50px;
     background-color:#D64337 ;
+    float: left;
 
 }
 .orange{
-    background-color:#E9AD41 ;
-    margin-left:30px ;
+    border: 1px;
+    height: 50px;
+    width: 50px;
+    padding: 22px;
+    margin: 50px;
+   background-color:#E9AD41;
+    float: left;
 }
 .yellow{
+    border: 1px;
+    height: 50px;
+    width: 50px;
+    padding: 22px;
+    margin: 50px;
     background-color:#FCF54A;
-    margin-left: 60px;
+    float: left;
 }
 .green{
+    border: 1px;
+    height: 50px;
+    width: 50px;
+    padding: 22px;
+    margin: 50px;
     background-color: #588B19;
-    margin-left: 90px;
+    float: left;
+
 }
 .blue{
+    border: 1px;
+    height: 50px;
+    width: 50px;
+    padding: 22px;
+    margin: 50px;
     background-color: #2852F7;
-    margin-left: 120px;
+    float: left;
 }
 .violet{
+    border: 1px;
+    height: 50px;
+    width: 50px;
+    padding: 22px;
+    margin: 50px;
     background-color: #DE8EEE;
-    margin-left: 150px;
+    float: left;
+
 }
