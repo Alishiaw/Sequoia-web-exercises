@@ -1,5 +1,10 @@
 
 
+* {
+   box-sizing: border-box;
+
+}
+
 body {
     margin: 0;
     height: 100%;
@@ -17,15 +22,11 @@ h1 {
 }
 
 .alert-info {
-    background-color: lightcyan;
-    border: 2px solid lightgrey;
-    padding: 1em;
-    text-align: center;
+    display: none;
 }
 
-.alert-info  a {
-    color: black;
-    text-decoration: none;
+.row {
+
 }
 
 .nav-links {
@@ -36,16 +37,16 @@ h1 {
     background-color: lightgrey;
     padding: 1em;
     text-align: center;
-    margin-bottom: .5em;
     list-style-type: none;
 }
 
 .header-img img {
-    width: 100%;
+
 }
 
 .sub-section {
     font-style: italic;
+
 }
 
 @media screen and (min-width: 768px) {
