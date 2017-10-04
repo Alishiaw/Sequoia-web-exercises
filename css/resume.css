@@ -1,0 +1,16 @@
+.address, .name, #name, #email {
+    text-align: center;
+}
+.officer{
+font-weight: bold;
+    font-style: italic;
+}
+.dates{
+    position: absolute;
+    top:0;
+    right: 0;
+    width:0;
+    height: 0;
+
+
+}
