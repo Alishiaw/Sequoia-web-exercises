@@ -1,0 +1,132 @@
+body{
+    background-color: #f0f0f0;
+}
+
+.img{
+    position: relative;
+    width: 105px;
+    height: 105px;
+    top: -40px;
+
+}
+
+
+nav {
+    margin-top: 30px;
+}
+nav li{
+    float: right;
+}
+h1, h3{
+    text-align: center;
+    font-family: 'Anton', sans-serif ;
+}
+.circle{
+    border-radius: 50%;
+    height:105px;
+    width: 105px;
+    display: inline;
+    margin: 4px;
+
+
+}
+.picture{
+    width: 105px;
+    height: 105px;
+    text-align: center;
+}
+.pic{
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+hr{
+    border: 2px solid #e6e6e6;
+   width: 60%;
+}
+.box{
+    width:200px;
+    height:130px;
+    border: solid 2px #e6e6e6;
+}
+.apple{
+    width: 200px;
+    height:130px;
+}
+img{
+    width: 250px;
+    height: 175px;
+    vertical-align: 0;
+}
+.tinycircle{
+    float: right;
+    position: relative;
+    right: 55px;
+    top:-30px;
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    font-size: 12px;
+}
+.red{
+    background-color: #e6563b;
+    margin: 3px;
+
+}
+.orange{
+    background-color: #eb9d3a;
+    margin: 3px;
+}
+.green{
+    background-color: #7cb06c;
+    margin: 3px;
+}
+.blue{
+    background-color: #00aba9;
+    margin: 3px;
+}
+
+.work{
+    position: relative;
+    right: -60px;
+}
+.word{
+    position: relative;
+    right: 65px;
+}
+.word-2{
+
+    position: relative;
+    right: 400px;
+}
+
+.smallpics{
+    width: 48px;
+    height: 48px;
+    padding-bottom: 5px;
+
+
+}
+
+h4{
+    font-family: Anton;
+    text-align: center;
+}
+
+h3{
+
+    font-family: 'Anton', sans-serif;
+    text-align: left;
+
+}
+
+.side-text {
+    margin-top: 0;
+}
+.fa-twitter{
+    float: left;
+    color:#00CCFF;
+ }
+.side{
+    text-align: center;
+}
