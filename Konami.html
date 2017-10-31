@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enter The Konami Code</title>
+
+    <style>
+        body{
+            margin: 0;
+        }
+
+
+    </style>
+</head>
+    <body>
+        <h1>Konami Code</h1>
+
+        <script src="js/jquery-2.2.4.js"></script>
+        <script>
+            "use strict";
+
+
+            function onKonamiCode(cb) {
+                var audio = new Audio('Ghost_Voice.mp3');
+                var input = '';
+                var key = '38384040373937396665';
+                document.addEventListener('keyup', function (e) {
+
+                    input += ("" + e.keyCode);
+                    if (input === key) {
+                        cb();
+                        $('body').css('transition','all 2s linear');
+                        $('body').css('transform','scale(0)');
+                        $('body').css('background','black');
+                        audio.play();
+                       return $('body').append("<img src ='img/pennywise2.png' width='1400' height='700'>").css('transition');
+
+
+
+                    }
+                    if (!key.indexOf(input)) return;
+                    input = ("" + e.keyCode);
+                });
+
+            }
+            onKonamiCode(function (){});
+
+        </script>
+
+    </body>
+</html>
