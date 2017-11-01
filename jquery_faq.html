@@ -2,9 +2,155 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>FAQs</title>
 </head>
-<body>
-$END$
-</body>
+    <body>
+
+
+
+    <div id="wrapper">
+
+        <h1 id="news">Would you like to sign up for our newsletter?<span><sup>X</sup></span></h1>
+
+    </div>
+
+
+
+    <h3> National Parks Frequently Asked Questions</h3>
+
+        <dl>
+            <dt>How many national parks are there in the US?</dt>
+            <dd class="invisible">The US has 59 National Parks</dd>
+            <dt>Why do people go to National Parks?</dt>
+            <dd class="invisible">Visitors go to enjoy the scenery and landscape</dd>
+            <dt>What is a National Park?</dt>
+            <dd class="invisible">National parks are large areas of public land set aside for native plants,
+                animals and the places in which they live.</dd>
+            <dt>What's the most popular national park?</dt>
+            <dd class="invisible">Great Smoky Mountains National Park</dd>
+            <dt>Who owns the national parks in the United States?</dt>
+            <dd class="invisible">United States Department of the Interior</dd>
+            <dt>When did the national parks start?</dt>
+            <dd class="invisible">August 25, 1916</dd>
+            <dt>ow many employees are in the National Park Service?</dt>
+            <dd class="invisible">Approximately 22,000 diverse professionals</dd>
+            <dt>How many areas are in the National Park System?</dt>
+            <dd class="invisible">The system includes 417 areas covering more than 84 million acres in every state, the District of Columbia,
+                American Samoa, Guam, Puerto Rico, and the Virgin Islands. These areas include national parks, monuments, battlefields, military parks,
+                historical parks, historic sites, lakeshores, seashores, recreation areas, scenic rivers and trails, and the White House.</dd>
+            <dt>What is the largest national park site? Smallest?</dt>
+            <dd class="invisible">Largest: Wrangell-St. Elias National Park and Preserve, AK, at 13.2 million acres
+                Smallest: Thaddeus Kosciuszko National Memorial, PA, at 0.02 acres</dd>
+            <dt>What is the National Park Service budget?</dt>
+            <dd class="invisible">Fiscal Year (FY) 2014 Enacted: $2.98 billion
+                FY 2015 Enacted: $2.615 billion
+                FY 2016 Enacted:$2.851 billion
+                FY 2017 Enacted: $2.932 billion</dd>
+        </dl>
+
+    <h3 id="national-parks-heading1">Yellowstone National Park</h3>
+    <ul id="national-parks1">
+        <li>Yellowstone National Park was established on March 1, 1872.</li>
+        <li>Yellowstone is the world’s first national park.</li>
+        <li>Highest Point: 11,358 feet (3,462 m; Eagle Peak)</li>
+        <li>Lowest Point: 5,282 feet (1,610 m; Reese Creek)</li>
+        <li>Larger than Rhode Island and Delaware combined</li>
+    </ul>
+    <h3 id="national-parks-heading2">Grand Canyon National Park</h3>
+    <ul id="national-parks2">
+        <li><strong>DON'T REALLY KNOW HOW OLD IT IS</strong>
+            It has long been believed that the Colorado River began carving the Grand Canyon about 6 million years ago,
+            but a 2012 study contained a real shocker,
+            suggesting that the process may have begun as far back as 70 million years. In all likelihood,
+            the Grand Canyon as we know it today started out as a series of smaller canyons 70 million years ago,
+            but the majority of the canyon did not begin to take shape until much more recently.</li>
+
+        <li> <strong>IT'S NOT THE DEEPEST CANYON IN THE WORLD</strong>
+            The Yarlung Tsangpo Grand Canyon in Tibet plummets to a depth of 17,567 feet,
+            making it more than 2 miles deeper than the Grand Canyon's 6,093 feet.
+            The Tibetan canyon is also about 30 miles longer than the Grand Canyon. </li>
+        <li>THERE ARE NO DINOSAUR BONES IN THE GRAND CANYON
+
+            The Grand Canyon might look like the perfect place to go looking for dinosaur bones,
+            but none have ever been found there, and for good reason.
+            The rock that makes up the canyon walls is vastly more ancient than the dinosaurs –
+            about a billion years more ancient, in some cases –
+            but the canyon itself probably didn't form until after the dinosaurs were long gone.</li>
+
+        <li> <strong>FISH ARE RELATIVELY UNCOMMON IN THE GRAND CANYON</strong>
+            Prior to modern flood control measures,
+            the Colorado River provided a uniquely difficult habitat for fish,
+            with heavy silt, frequent floods,
+            and temperatures ranging from extreme heat in summer to sub-freezing in winter.
+            As a result, only eight fish species are native to the Grand Canyon,
+            six of which are found nowhere outside of the Colorado River.</li>
+        <li>THERE'S A TOWN IN THE GRAND CANYON
+
+            Lists of Grand Canyon facts don’t often include information about its human population,
+            but surprisingly, it does have one.
+            Supai Village is located at the base of the Grand Canyon within the Havasupai Indian Reservation.
+            Inaccessible by road and with a population of just 208,
+            it is the most remote community in the lower 48 states,
+            and is the only place where mail is still delivered by pack mule. </li>
+    </ul>
+    <h3 id="national-parks-heading3">Yosemite National Park</h3>
+    <ul id="national-parks3">
+        <li>Yosemite National Park, located in the state of California,
+            covers 761,268 acres of land.</li>
+        <li>There is a granite formation in Yosemite called the Half Dome.
+            It reaches 5,000 feet above the floor of the valley.</li>
+        <li>There is a waterfall in the park named Bridalveil Falls.
+            Because the wind blows the falling water to the side,
+            it looks like a bride's veil blowing in the wind.
+        </li>
+        <li>It is believed that a glacier is responsible for producing the shape of Yosemite Valley.</li>
+        <li>The mountains located in Yosemite still grow about one foot every 1,000 years.</li>
+    </ul>
+
+    <button id="highlightBtn">Highlight</button>
+
+    <script>
+        "use strict";
+//        $('#toggle').click(function (e) {
+//            e.preventDefault();
+//            $("dd").toggleClass("invisible");
+//        });
+//
+//        $("dt").click(function (e) {
+//            $(e.target).css('background-color','yellow');
+//        });
+
+        var highlightBtn = $('#highlightBtn');
+        highlightBtn.click(function(index, element){
+            $(element).children().last().css("background-color","yellow");
+        });
+//
+//        $('h3').click(function () {
+//            console.log(this);
+//        });
+
+        $('#leftSwapBtn').click(function () {
+            var oldClass = $(this).prev().attr("class").split(" ")[1];
+            var newClass = $(this).parent().next().children().first().attr("class").split(" ")[1];
+            $(this).prev().attr("class","frame" + newClass);
+            $(this).parent().next().children().first().attr("class","frame" + oldClass)
+
+        });
+        $('#middleSwapBtn').click(function () {
+
+        });
+
+        $("span").click(function () {
+            $(this).parent().hide();
+        });
+
+        $("ul").hide();
+        $("h3").click(function () {
+            $(this).next().slideToggle();
+        });
+        $("#register").hide().delay(2000).fadeIn();
+
+
+    </script>
+    </body>
 </html>
