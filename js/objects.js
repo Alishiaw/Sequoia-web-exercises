@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 "use strict";
 
 
@@ -40,7 +40,7 @@ function deactivateMembers(arrayOfMemberObjects) {
 
     return arrayOfMemberObjects;
 }
-console.log(deactivateMembers(members));
+console.log(deactivateMembers(members))
 
 
 
@@ -65,7 +65,7 @@ and contain an additional property of dateDeactivated set to 2017.
 4. Iterate over the cansOfSoda array and open() and pourOut() each canOfSoda object
 5. Console log the cansOfSoda array to check if the methods worked correctly.*/
 
-=======
+// =======
 (function() {
     "use strict";
 
@@ -298,4 +298,4 @@ and contain an additional property of dateDeactivated set to 2017.
 
 
 })();
->>>>>>> study-work
+
