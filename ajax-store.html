@@ -40,23 +40,13 @@
 
 
 
-
         //       HINT: Your data should come back as a JSON object; use console.log() to inspect
         //             its contents and fields
         //       HINT: You will want to target #insertProducts for your new HTML elements
 
-
-
-//    $.ajax("data/inventory.json").done(function (data, status, jqXhr) {
-//        //    alert("It worked");
-//        //    console.log("Requested Status:" + status);
-
-
-
-
-//        })
         function updatepage(){
-            var request = $.ajax("data/inventory.json");
+            var request = $.get("data/inventory.json");
+
             request.done(function (data) {
                 buildHTML(data)
             });
