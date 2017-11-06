@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Map</title>
+
+    <style>
+
+        #container-fluid {
+
+            background-color: skyblue;
+        }
+
+
+    </style>
+</head>
+
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+
+
+<div id="container-fluid">
+    <div class="jumbotron">
+        <h1>Current temperature: <span id="temperature"></span>&deg;</h1>
+        <h1 class="text-center">Weather Application</h1>
+    </div>
+
+    <div class="row well">
+        <div class="col-md-12 " id="city">
+        <h2>San Antonio</h2>
+        </div>
+
+    <div class="row">
+        <div class="col-md-4 ">
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+</div>
+
+
+    <script>
+
+
+//
+        $.get("http://api.openweathermap.org/data/2.5/weather", {
+            APPID: "31c7dcd40a3b8ed5221131e0828f47a4",
+            q:     "San Antonio, TX",
+            units: "imperial"
+        }).done(function (response) {
+            console.log(response);
+        });
+
+        function updateUISuccess(response) {
+            var condition = response.waether[0].main;
+            var degC = response.main.temp - 273.25;
+            var degCInt = Math.floor(degC);
+            var degF = degC * 1.8 + 32;
+            var deFInt = Math.floor(degF);
+            var weatherBox = document.getElementById("weather");
+            weatherBox.innerHTML = "<p>" + degCInt + "&#176; C / " + deFInt + "&#176; F</p><p>"+ condition + "</p>"
+
+        }
+
+
+
+
+
+
+
+
+
+//        $.get("http://api.openweathermap.org/data/2.5/weather", {
+//            APPID: "31c7dcd40a3b8ed5221131e0828f47a4",
+//            q:     "San Antonio, TX",
+//            units: "imperial"
+//        }).done(function(data) {
+//            console.log(data);
+//        });
+
+
+//        .then(function (response) {
+//
+//            if (!response.ok)
+//
+//           console.log(data)
+//        }).fail(function (jqXhr, status) {
+//           console.log(status + " it failed");
+
+//       });
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+</body>
+</html>
